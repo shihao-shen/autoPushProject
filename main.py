@@ -1,7 +1,6 @@
-from lib.tools import *
-import paramiko
 import sys
-import time
+from loguru import logger
+from lib.tools import *
 
 
 def main():

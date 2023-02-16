@@ -3,8 +3,8 @@ import os
 import time
 import paramiko
 import xml.etree.ElementTree as elementTree
+
 from loguru import logger
-logger.add("./log/log.txt")
 
 
 def compressZip(path):
@@ -86,5 +86,6 @@ def getXMLConfig(key):
         "remotepath": root.find("remotepath").text,
         "command": root.find("command").text,
     }
+    logger.add(f"./log/{root.tag}.log")
     logger.info("加载配置文件")
     return config
