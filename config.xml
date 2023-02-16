@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<host_config>
+    <centos>
+        <hostname>192.168.79.128</hostname>
+        <auth>login</auth>
+        <port>22</port>
+        <username>root</username>
+        <password>985654789</password>
+        <localpath>G:\\Blog\\my_site\\src\\.vuepress\\dist</localpath>
+        <remotepath>/tmp/dist.zip</remotepath>
+        <command>rm -rf /root/html/*;cd /root/html/;mv /tmp/dist.zip ./;unzip dist.zip</command>
+    </centos>
+    <ubuntu>
+        <hostname>150.158.194.26</hostname>
+        <auth>key</auth>
+        <rsa>C:\\Users\\shihao\\.ssh\\id_rsa</rsa>
+        <port>22</port>
+        <username>ubuntu</username>
+        <password>s</password>
+        <localpath>G:\\Blog\\my_site\\src\\.vuepress\\dist</localpath>
+        <remotepath>/tmp/dist.zip</remotepath>
+        <command>rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip</command>
+    </ubuntu>
+</host_config>
