@@ -12,7 +12,7 @@ def main():
     try:
         sftp = paramiko.SFTPClient.from_transport(client.get_transport())
         sftp.put(local_path, remote_path, callback=call_back)
-        logger.info("文件上传成功")
+        logger.info(f"文件上传成功 {config['remotepath']}"+(" " * 50))
         stdin, stdout, stderr = client.exec_command(config['command'])
         while not stdout.channel.exit_status_ready():
             res = stdout.readline()[:-3]
@@ -24,7 +24,7 @@ def main():
         logger.error("强制断开连接")
         client.close()
 
-    logger.info("命令执行成功")
+    logger.info(f"命令执行成功 {config['command']}")
     client.close()
     pass
 

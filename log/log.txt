@@ -216,3 +216,38 @@
 2023-02-15 23:01:04.131 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
 2023-02-15 23:01:43.184 | INFO     | __main__:main:15 - 文件上传成功
 2023-02-15 23:01:43.862 | INFO     | __main__:main:27 - 命令执行成功
+2023-02-16 12:06:57.778 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 12:06:58.497 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 12:07:00.023 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 12:07:19.911 | INFO     | __main__:main:15 - 文件上传成功
+2023-02-16 12:07:20.421 | INFO     | __main__:main:27 - 命令执行成功
+2023-02-16 12:08:54.958 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 12:08:55.741 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 12:08:57.096 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 12:09:16.724 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip
+2023-02-16 12:09:17.238 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip
+2023-02-16 12:10:27.253 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 12:10:28.009 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 12:10:29.238 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 12:10:49.472 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip          
+2023-02-16 12:10:50.115 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip
+2023-02-16 12:11:10.450 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 12:11:11.226 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 12:11:12.466 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 12:11:33.109 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip                                                  
+2023-02-16 12:11:33.872 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip
+2023-02-16 12:51:16.545 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 12:51:17.334 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 12:51:18.985 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 12:51:40.369 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip                                                  
+2023-02-16 12:51:40.866 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip
+2023-02-16 13:07:12.100 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 13:07:12.898 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 13:07:14.216 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 13:07:35.021 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip                                                  
+2023-02-16 13:07:35.510 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip
+2023-02-16 13:39:56.637 | INFO     | lib.tools:getXMLConfig:89 - 加载配置文件
+2023-02-16 13:39:57.447 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 13:39:59.625 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 13:40:22.665 | INFO     | __main__:main:15 - 文件上传成功 /tmp/dist.zip                                                  
+2023-02-16 13:40:23.187 | INFO     | __main__:main:27 - 命令执行成功 rm -rf /home/ubuntu/html/*;cd /home/ubuntu/html/;mv /tmp/dist.zip ./;sudo unzip dist.zip

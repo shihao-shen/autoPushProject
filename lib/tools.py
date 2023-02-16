@@ -81,7 +81,7 @@ def getXMLConfig(key):
         "auth": root.find("auth").text,
         "rsa": root.find("rsa").text if root.find("rsa") is not None else "",
         "port": int(root.find("port").text),
-        "password": root.find("password").text,
+        "password": root.find("password").text if root.find("password") is not None else "",
         "localpath": root.find("localpath").text,
         "remotepath": root.find("remotepath").text,
         "command": root.find("command").text,
