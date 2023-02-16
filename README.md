@@ -71,4 +71,4 @@ python main.py centos
 
 下面是运行结果
 
-![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/autoPushProject.gif)
+![autoPushProject](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/autoPushProject.gif)
