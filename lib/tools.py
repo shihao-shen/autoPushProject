@@ -8,11 +8,15 @@ from loguru import logger
 
 
 def compressZip(path):
-    file_name = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
-    base_path = f"{os.path.abspath('.')}\\tmp\\{file_name}"
-    zip_path = shutil.make_archive(base_path, "zip", path)
-    logger.info(f"压缩 {path} ")
-    return zip_path
+    try:
+        file_name = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
+        base_path = f"{os.path.abspath('.')}\\tmp\\{file_name}"
+        zip_path = shutil.make_archive(base_path, "zip", path)
+        logger.info(f"压缩 {path} ")
+        return zip_path
+    except FileNotFoundError as err:
+        logger.debug(err)
+        exit(-1)
 
 
 def translate_byte(B):
@@ -81,7 +85,7 @@ def getXMLConfig(key):
         "auth": root.find("auth").text,
         "rsa": root.find("rsa").text if root.find("rsa") is not None else "",
         "port": int(root.find("port").text),
-        "password": root.find("password").text,
+        "password": root.find("password").text if root.find("password") is not None else "",
         "localpath": root.find("localpath").text,
         "remotepath": root.find("remotepath").text,
         "command": root.find("command").text,
