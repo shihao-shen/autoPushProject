@@ -1,0 +1,5 @@
+2023-02-16 11:17:01.791 | INFO     | lib.tools:getXMLConfig:90 - 加载配置文件
+2023-02-16 11:17:02.551 | INFO     | lib.tools:connectHost:68 - 连接 150.158.194.26
+2023-02-16 11:17:03.879 | INFO     | lib.tools:compressZip:14 - 压缩 G:\\Blog\\my_site\\src\\.vuepress\\dist 
+2023-02-16 11:17:30.332 | INFO     | __main__:main:14 - 文件上传成功                                                              
+2023-02-16 11:17:31.013 | INFO     | __main__:main:26 - 命令执行成功                                                      
