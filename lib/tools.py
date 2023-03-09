@@ -54,7 +54,7 @@ def call_back(curr=100, total=100):
     #                                                                        translate_byte(total)), end='')
 
     if int(round(float(curr) * 100 / float(total), 2)) <= 99:
-        print("\r上传进度： [{}] {}% {}".format(bar, percents, translate_byte(curr)), end='')
+        print("\r上传进度： [{}] {}% ".format(bar, percents, translate_byte(curr))[0:-1], end="")
     else:
         print("", end='\r')
 
@@ -78,6 +78,7 @@ def connectHost(config):
 
 def getXMLConfig(key):
     tree = elementTree.parse('config.xml')
+
     root = tree.getroot().find(key)
     config = {
         "hostname": root.find("hostname").text,
@@ -92,4 +93,5 @@ def getXMLConfig(key):
     }
     logger.add(f"./log/{root.tag}.log")
     logger.info("加载配置文件")
+
     return config
